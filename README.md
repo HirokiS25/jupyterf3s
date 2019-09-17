@@ -1,5 +1,7 @@
 # ゼロから始めるJupyter Notebook
 
+![](https://user-images.githubusercontent.com/32427720/65029837-64fbbb00-d979-11e9-8e63-1f28001c4dd4.gif)
+
 ## Install
 
 ### Windows
