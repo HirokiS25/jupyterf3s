@@ -2,7 +2,7 @@
 
 ---
 
-@snap[]
+@snap[north span-100]
 ## Jupyter is 何？
 
 **Python**をブラウザ上でインタラクティブに動かすためのWebアプリ
@@ -20,7 +20,7 @@
 
 
 ---
-@snap[north]
+@snap[north span-100]
 ## Jupyterでできること
 
 - 文章作成(Markdown)
@@ -29,7 +29,7 @@
 - AI，機械学習，深層学習
 @snapend
 
-@snap[fragment -left]
+@snap[fragment left]
 ex.) 
 1. 計算結果をグラフにプロットしてその結果をメモする
 2. 大量のデータの中から必要なところだけ抜き出してその特徴量の可視化を行う
@@ -80,8 +80,8 @@ $$
 
 @snap[east span-40]
 ニュートンの運動方程式は
-$$
+'\[
 F = ma
-$$
+\]'
 である．ここで$F$は力，$m$は質量，$a$は加速度を表す．
 @snapend
