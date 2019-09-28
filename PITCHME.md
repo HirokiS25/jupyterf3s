@@ -71,7 +71,9 @@ A. $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
 @snap[fragment left]
 ex.) 
+
 1. 計算結果をグラフにプロットしてその結果をメモする
+
 2. 大量のデータの中から必要なところだけ抜き出してその特徴量の可視化を行う
 @snapend
 
@@ -80,7 +82,7 @@ ex.)
 
 ---
 
-## 実際にやってみよう
+## python入門
 
 ---
 
@@ -91,7 +93,7 @@ ex.)
 + Macの人 → ターミナル
 @snapend
 
-@snap[west]
+@snap[west span-100]
 ```sh
 jupyter lab
 ```
@@ -103,6 +105,39 @@ jupyter lab
 
 ---
 
+### Hello, world
+
+pythonではクォーテーションかダブルクォーテーションで囲まれた部分が文字列となります．
+Hello, worldを出力してみましょう．
+
+```python
+print('Hello, world')
+```
+
+---
+
+### 四則演算
+
+`+, -, *, /`
+
+```python
+a = 3
+b = 5
+a + b
+```
+
+---
+
+### 関数の定義
+
+
+```python
+def add(x, y):
+	return x + y
+```
+
+---
+
 @snap[north-west span-100]
 ## Markdown
 @snapend
@@ -110,11 +145,11 @@ jupyter lab
 軽量なマークアップ言語(簡単html)
 
 
-@css[box](
-1. `Esc + m`またはタブの下にあるプルダウンメニューからMarkdownを選ぶ
-2. Markdownセルをクリック
-3. 文章を書く
-4. `shift+Enter`でレンダリングする
+@css[box](\
+1. `Esc + m`またはタブの下にあるプルダウンメニューからMarkdownを選ぶ\
+2. Markdownセルをクリック\
+3. 文章を書く\
+4. `shift+Enter`でレンダリングする\
 )
 
 
@@ -146,4 +181,24 @@ F = ma
 
 ---
 
+### 数式について
 
+
+Jupyterでは数式の記述にMathJaxというライブラリを使っています．MathJaxは$\LaTeX$の文法に準拠しているので，$\LaTeX$を知らない人は
+
+https://home.hiroshima-u.ac.jp/~d172596/markdown.html
+
+に簡単な文法の説明がありますので，参考にしてください
+
+---
+
+
+## jupyterを使ってノートを取ろう
+
+
++ Markdownを使ったメモ書き
++ sympyによる数式処理
++ numpyによる数値計算
++ グラフの可視化
+
+などを駆使して，ノートを取ると便利です．
