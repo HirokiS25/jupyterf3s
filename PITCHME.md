@@ -107,6 +107,22 @@ jupyter lab
 ## Markdown
 @snapend
 
+軽量なマークアップ言語(簡単html)
+
+
+@box[](
+1. `Esc + m`またはタブの下にあるプルダウンメニューからMarkdownを選ぶ
+2. Markdownセルをクリック
+3. 文章を書く
+4. `shift+Enter`でレンダリングする
+)
+
+1. `Esc + m`またはタブの下にあるプルダウンメニューからMarkdownを選ぶ
+2. Markdownセルをクリック
+3. 文章を書く
+4. `shift+Enter`で表示
+
+
 @snap[west span-40]
 コード
 ```md
@@ -129,3 +145,8 @@ F = ma
 \]
 である．ここで$F$は力，$m$は質量，$a$は加速度を表す．
 @snapend
+
+
+---
+
+
