@@ -3,7 +3,7 @@
 
 # Look-and-Feel
 logo : assets/images/logo.png
-theme : night
+# theme : night
 theme-override : assets/css/PITCHME.css
 highlight : ir-black
 
