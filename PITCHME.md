@@ -47,14 +47,15 @@
 
 例えば，
 
-<template class=black>
+@snap[text-08]
 Q. $a x^2 + b x + c = 0$の解を求めよ.
 A. $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
 のようなことが出来る．
 
+参考： 
 [2015年センター試験数学IAを全てプログラム(Python)で解く](https://qiita.com/akai_banana/items/b328fe0116d248127a36)
-</template>
+@snapend
 
 
 ---
