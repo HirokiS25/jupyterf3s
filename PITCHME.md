@@ -47,8 +47,8 @@
 
 例えば，
 
-@snap[text-08]
-Q. $a x^2 + b x + c = 0$の解を求めよ.
+@snap[text-06 span-100]
+Q. $a x^2 + b x + c = 0$の解を求めよ. 
 A. $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
 のようなことが出来る．
@@ -78,15 +78,11 @@ A. $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
 ---
 
-@snap[north span-100]
 ## Jupyterでできること
-@snapend
 
-@snap[fragment left]
-ex.) 
-
-1. 計算結果をグラフにプロットしてその結果をメモする
-
+@snap[fragment]
+ex.)  
+1. 計算結果をグラフにプロットしてその結果をメモする 
 2. 大量のデータの中から必要なところだけ抜き出してその特徴量の可視化を行う
 @snapend
 
@@ -118,7 +114,9 @@ jupyter lab
 
 ---
 
+@snap[north]
 ### Hello, world
+@snapend
 
 pythonではクォーテーションかダブルクォーテーションで囲まれた部分が文字列となります．
 Hello, worldを出力してみましょう．
@@ -129,9 +127,11 @@ print('Hello, world')
 
 ---
 
+@snap[north]
 ### 四則演算
+@snapend
 
-`+, -, *, /`
+数値が定義された変数に`+, -, *, /`を作用させると四則演算が出来ます．
 
 ```python
 a = 3
@@ -139,10 +139,17 @@ b = 5
 a + b
 ```
 
+他にも
+* 切り捨て除算`//`
+* 余り`%`
+* 累乗`**`
+が使えます．
+
 ---
 
 ### 関数の定義
 
+一連の処理をまとめてオリジナルの関数を作ることも出来ます．
 
 ```python
 def add(x, y):
@@ -166,10 +173,10 @@ def add(x, y):
 </div>
 
 
----?color=linear-gradient(to left, #56ccf2, #2f80ed)
+---
 
 @snap[west span-40]
-コード
+
 ```md
 ニュートンの運動方程式は
 $$
@@ -180,7 +187,7 @@ $$
 @snapend
 
 @snap[midpoint span-10]
-@fa[code-branch black]
+@fa[arrow-right]
 @snapend
 
 @snap[east span-40]
