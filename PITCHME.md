@@ -145,7 +145,7 @@ a + b
 * 累乗`**`
 が使えます．
 
----
+---?color=linear-gradient(to top, #6dd5ed, #2193b0)
 
 ### 関数の定義
 
