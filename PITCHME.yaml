@@ -2,7 +2,7 @@
 # layout : center-right
 
 # Look-and-Feel
-logo : assets/images/logo.png
+# logo : assets/images/logo.png
 # theme : night
 theme-override : assets/css/PITCHME.css
 highlight : ir-black
