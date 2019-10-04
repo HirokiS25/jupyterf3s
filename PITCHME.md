@@ -16,11 +16,22 @@
 * jupyterについて
 * 
 
----
+
+---?color=linear-gradient(to top, #6dd5ed, #2193b0)
 
 ## Jupyter is 何？
 
 **Python**をブラウザ上でインタラクティブに動かすためのWebアプリ
+
+
+## Jupyter labの起動
+
++ Windowsの人 → すべてのプログラム -> anaconda3 -> プロンプトを実行
++ Macの人 → ターミナル
+
+```sh
+jupyter lab
+```
 
 ---
 
@@ -95,28 +106,12 @@ ex.)
 
 ---
 
-@snap[north-west]
-## Jupyter lab
-
-+ Windowsの人 → すべてのプログラム -> anaconda3 -> プロンプトを実行
-+ Macの人 → ターミナル
-@snapend
-
-@snap[west span-100]
-```sh
-jupyter lab
-```
-@snapend
-
----
-
 ![画面の説明](url)
 
----
 
-@snap[north]
+---?color=linear-gradient(to top, #6dd5ed, #2193b0)
+
 ### Hello, world
-@snapend
 
 pythonではクォーテーションかダブルクォーテーションで囲まれた部分が文字列となります．
 Hello, worldを出力してみましょう．
@@ -125,11 +120,10 @@ Hello, worldを出力してみましょう．
 print('Hello, world')
 ```
 
----
 
-@snap[north]
+---?color=linear-gradient(to top, #6dd5ed, #2193b0)
+
 ### 四則演算
-@snapend
 
 数値が定義された変数に`+, -, *, /`を作用させると四則演算が出来ます．
 
@@ -158,9 +152,7 @@ def add(x, y):
 
 ---
 
-@snap[north-west span-100]
 ## Markdown
-@snapend
 
 軽量なマークアップ言語(簡単html)
 
@@ -173,7 +165,7 @@ def add(x, y):
 </div>
 
 
----
+---?color=linear-gradient(to top, #6dd5ed, #2193b0)
 
 @snap[west span-40]
 
@@ -187,7 +179,7 @@ $$
 @snapend
 
 @snap[midpoint span-10]
-@fa[arrow-right]
+@fa[arrow-right text-white]
 @snapend
 
 @snap[east span-40]
