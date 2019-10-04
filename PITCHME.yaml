@@ -16,7 +16,7 @@ theme-byline     : [ "Ubuntu", "black", "none" ]
 theme-text       : [ "Raleway", "#F5FFFA", "none" ]
 theme-links      : [ "#0295BB", "#C0C0C0" ]
 theme-code       : [ "Inconsolata" ]
-theme-controls   : [ "#484848" ]
+theme-controls   : [ "linear-gradient(to top, #6dd5ed, #2193b0)" ]
 theme-margins    : [ "0", "15px" ]
 highlight        : github
 
