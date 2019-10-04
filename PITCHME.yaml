@@ -4,8 +4,22 @@
 # Look-and-Feel
 # logo : assets/images/logo.png
 # theme : night
-theme-override : assets/css/PITCHME.css
-highlight : ir-black
+# theme-override : assets/css/PITCHME.css
+# highlight : ir-black
+
+
+theme            : template
+
+theme-background : [ "linear-gradient(to top, #6dd5ed, #2193b0)" ]
+theme-headline   : [ "Ubuntu", "white", "none" ]
+theme-byline     : [ "Ubuntu", "black", "none" ]
+theme-text       : [ "Raleway", "#F5FFFA", "none" ]
+theme-links      : [ "#0295BB", "#C0C0C0" ]
+theme-code       : [ "Inconsolata" ]
+theme-controls   : [ "#484848" ]
+theme-margins    : [ "0", "15px" ]
+
+highlight        : ir-black
 
 # Behavior
 transition : none
