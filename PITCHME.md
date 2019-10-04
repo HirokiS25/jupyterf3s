@@ -1,13 +1,22 @@
 # ゼロから始めるJupyter Notebook
 
+---
 
-- 2019年度F3S
-- 10月9日
-- 広島大学理学研究科
-- 坂本弘樹
+## 自己紹介
+
+名前：坂本弘樹
+所属：理学研究科素粒子論研究室(D3)
+
 
 ---
 
+
+## 目次
+
+* jupyterについて
+* 
+
+---
 
 ## Jupyter is 何？
 
@@ -59,7 +68,7 @@ A. $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 ほかにも
 
 - Webアプリ(Django, flask)
-- 機械学習，深層学習，AI(TensorFlow, scikit-learn)
+- 機械学習，深層学習，AI(TensorFlow, scikit-learn, Kelas)
 
 なんかも出来たりします．
 
@@ -145,12 +154,12 @@ def add(x, y):
 軽量なマークアップ言語(簡単html)
 
 
-@css[box](\
-1. `Esc + m`またはタブの下にあるプルダウンメニューからMarkdownを選ぶ\
-2. Markdownセルをクリック\
-3. 文章を書く\
-4. `shift+Enter`でレンダリングする\
-)
+<div class=box>
+1. `Esc + m`またはタブの下にあるプルダウンメニューからMarkdownを選ぶ
+2. Markdownセルをクリック
+3. 文章を書く
+4. `shift+Enter`でレンダリングする
+</div>
 
 
 ---?color=linear-gradient(to left, #56ccf2, #2f80ed)
