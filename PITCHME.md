@@ -41,7 +41,7 @@ google colabolatoryを試してみましょう(要googleアカウント)
 
 ## Python
 
-@snap[fragment]
+@ul
 + 最近人気のプログラミング言語
 + オープンソース
 + 習得が容易
@@ -49,13 +49,13 @@ google colabolatoryを試してみましょう(要googleアカウント)
 + 汎用性が高い
 + 高収入(?) [Ref.](https://jp.stanby.com/media/programming_ranking2017/)
 + ライブラリが豊富
-@snapend
+@ulend
 
 ---
 
 ## どんなことが出来るのか
 
-@snap[fragment]
+@ul
 * Web開発
 * AI
 * 機械学習
@@ -66,7 +66,7 @@ google colabolatoryを試してみましょう(要googleアカウント)
 * など
 
 google, youtube, dropbox, instagramなどはPythonで作られている
-@snapend
+@ulend
 
 ---
 
@@ -97,16 +97,6 @@ A. $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 参考：[2015年センター試験数学IAを全てプログラム(Python)で解く](https://qiita.com/akai_banana/items/b328fe0116d248127a36)
 @snapend
 
-
----
-
-### pandas
-
-@fa[hand-point-right text-white]
-データ解析をするためのライブラリ
-
-`DataFrame`というオブジェクトを使って
-様々なデータ処理を容易に行うことができる
 
 ---
 
@@ -142,6 +132,8 @@ pythonでは`var = 12`のようにして変数を与えます．
 クォーテーションかダブルクォーテーションで囲まれた部分が文字列となります．
 
 Hello, Worldを出力してみましょう．
+
+---
 
 ```python
 char = 'Hello, World'
