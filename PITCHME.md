@@ -14,8 +14,9 @@
 
 ## 目次
 
-* jupyterについて
-* 
+* Jupyterについて
+* python入門
+* Jupyterでノートを取る
 
 
 ---?color=linear-gradient(to top, #6dd5ed, #2193b0)
@@ -25,41 +26,65 @@
 **Python**をブラウザ上でインタラクティブに動かすためのWebアプリ
 
 
-#### Jupyter labの起動
+Jupyter labを起動するには
 
-+ Windowsの人 → すべてのプログラム -> anaconda3 -> プロンプトを実行
-+ Macの人 → ターミナル
++ Windowsの人 @fa[right-arrow] すべてのプログラム @fa[right-arrow] anaconda3 @fa[right-arrow] プロンプトを実行
++ Macの人 @fa[right-arrow] ターミナル
 
-```sh
-jupyter lab
-```
+を立ち上げたら`jupyter lab`と入力して実行してください．
+
+
+Jupyterをインストール出来てない人はオンラインで使える
+google colabolatoryを試してみましょう(要googleアカウント)
 
 ---
 
 ## Python
 
+@snap[fragment]
 + 最近人気のプログラミング言語
++ オープンソース
 + 習得が容易
-+ 高収入？ [Ref.](https://jp.stanby.com/media/programming_ranking2017/)
-+ **ライブラリが豊富**
++ 書きやすい
++ 汎用性が高い
++ 高収入(?) [Ref.](https://jp.stanby.com/media/programming_ranking2017/)
++ ライブラリが豊富
+@snapend
 
 ---
 
-### numpy, scipy
+## どんなことが出来るのか
 
-@fa[hand-point-right text-white]
-`numpy`: 数値計算を高速に行うことが出来るライブラリ
+@snap[fragment]
+* Web開発
+* AI
+* 機械学習
+* データ解析
+* 数値計算
+* 記号計算
+* データの可視化
+* など
 
-@fa[hand-point-right text-white]
-`scipy`: 科学計算に必要な特殊なモジュールを提供するライブラリ
-
+google, youtube, dropbox, instagramなどはPythonで作られている
+@snapend
 
 ---
 
-### sympy
+## ライブラリの紹介(一部)
 
-@fa[hand-point-right text-white]
-記号計算用ライブラリ
+* `numpy`: 数値計算を高速に行うことが出来るライブラリ
+* `scipy`: 科学計算に必要な特殊なモジュールを提供するライブラリ
+* `sympy`: 記号計算用ライブラリ
+* `pandas`: データ解析をするためのライブラリ
+
+ほかにも
+
+- `Django, flask`: Web開発のためのフレームワーク
+- `TensorFlow, scikit-learn, Kelas`: 機械学習，深層学習，AI
+
+などライブラリを使うことによって，様々なアプリケーションを作れる！
+
+Note:
 
 例えば，
 
@@ -85,36 +110,24 @@ A. $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 ---
 
-ほかにも
+## Jupyterの使い方の例
 
-- `Django, flask`: Webアプリ
-- `TensorFlow, scikit-learn, Kelas`: 機械学習，深層学習，AI
+Jupyterの特徴： 
 
-などライブラリを使うことによって，様々なアプリケーションを作れる！
-
-google, youtube, instagram
-
----
-
-## Jupyterでできること
+* セルごとにPythonのコードが実行でき，その結果をノートブック上に保存できる．
+* Markdownを使って見出しや表などが簡単に表示できる
 
 @snap[fragment]
-ex.)  
-1. 計算結果をグラフにプロットしてその結果をメモする 
-2. 大量のデータの中から必要なところだけ抜き出してその特徴量の可視化を行う
+**Pythonを書いて得られたデータやグラフを，ノートのようにまとめることができる**
 @snapend
 
 ---
-![example](url)
+
+![jy_window_new](https://user-images.githubusercontent.com/32427720/66415236-1b613600-ea36-11e9-9dab-6f4faebb2cf1.png)
 
 ---
 
 ## python入門
-
----
-
-![画面の説明](url)
-
 
 ---?color=linear-gradient(to top, #6dd5ed, #2193b0)
 
