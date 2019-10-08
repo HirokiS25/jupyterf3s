@@ -5,6 +5,7 @@
 ## 自己紹介
 
 名前：坂本弘樹
+
 所属：理学研究科素粒子論研究室(D3)
 
 
@@ -24,7 +25,7 @@
 **Python**をブラウザ上でインタラクティブに動かすためのWebアプリ
 
 
-## Jupyter labの起動
+#### Jupyter labの起動
 
 + Windowsの人 → すべてのプログラム -> anaconda3 -> プロンプトを実行
 + Macの人 → ターミナル
@@ -46,26 +47,40 @@ jupyter lab
 
 ### numpy, scipy
 
-数値計算を高速に行うことが出来るライブラリ(numpy)と科学計算に必要な特殊なモジュールを提供するライブラリ(scipy)
+@fa[hand-point-right text-white]
+`numpy`: 数値計算を高速に行うことが出来るライブラリ
+
+@fa[hand-point-right text-white]
+`scipy`: 科学計算に必要な特殊なモジュールを提供するライブラリ
+
+```sh
+import numpy as np
+import scipy as sp
 
 
+def f(x):
+    return 4 / (1 + x ** 2)
+
+
+sp.integrate.quad(f, 0, 1)
+```
 
 ---
 
 ### sympy
 
+@fa[hand-point-right text-white]
 記号計算用ライブラリ
 
 例えば，
 
 @snap[text-06 span-100]
 Q. $a x^2 + b x + c = 0$の解を求めよ. 
-A. $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+A. $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 のようなことが出来る．
 
-参考： 
-[2015年センター試験数学IAを全てプログラム(Python)で解く](https://qiita.com/akai_banana/items/b328fe0116d248127a36)
+参考：[2015年センター試験数学IAを全てプログラム(Python)で解く](https://qiita.com/akai_banana/items/b328fe0116d248127a36)
 @snapend
 
 
@@ -73,7 +88,8 @@ A. $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
 ### pandas
 
-データ解析に向いたライブラリ
+@fa[hand-point-right text-white]
+データ解析をするためのライブラリ
 
 `DataFrame`というオブジェクトを使って
 様々なデータ処理を容易に行うことができる
@@ -82,10 +98,12 @@ A. $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
 ほかにも
 
-- Webアプリ(Django, flask)
-- 機械学習，深層学習，AI(TensorFlow, scikit-learn, Kelas)
+- `Django, flask`: Webアプリ
+- `TensorFlow, scikit-learn, Kelas`: 機械学習，深層学習，AI
 
-なんかも出来たりします．
+などライブラリを使うことによって，様々なアプリケーションを作れる！
+
+google, youtube, instagram
 
 ---
 
@@ -157,12 +175,11 @@ def add(x, y):
 軽量なマークアップ言語(簡単html)
 
 
-<div class=box>
-1. `Esc + m`またはタブの下にあるプルダウンメニューからMarkdownを選ぶ
+@box[](1. `Esc + m`またはタブの下にあるプルダウンメニューからMarkdownを選ぶ
 2. Markdownセルをクリック
 3. 文章を書く
 4. `shift+Enter`でレンダリングする
-</div>
+)
 
 
 ---?color=linear-gradient(to top, #6dd5ed, #2193b0)
