@@ -53,17 +53,6 @@ jupyter lab
 @fa[hand-point-right text-white]
 `scipy`: 科学計算に必要な特殊なモジュールを提供するライブラリ
 
-```sh
-import numpy as np
-import scipy as sp
-
-
-def f(x):
-    return 4 / (1 + x ** 2)
-
-
-sp.integrate.quad(f, 0, 1)
-```
 
 ---
 
@@ -129,13 +118,22 @@ ex.)
 
 ---?color=linear-gradient(to top, #6dd5ed, #2193b0)
 
-### Hello, world
+### Hello, World
 
-pythonではクォーテーションかダブルクォーテーションで囲まれた部分が文字列となります．
-Hello, worldを出力してみましょう．
+pythonでは`var = 12`のようにして変数を与えます．
+
+* 数値(int, float, complex)
+* 配列(list, tuple, dict)
+* 文字列(str)
+
+クォーテーションかダブルクォーテーションで囲まれた部分が文字列となります．
+
+Hello, Worldを出力してみましょう．
 
 ```python
-print('Hello, world')
+char = 'Hello, World'
+print(char)
+# Hello, World
 ```
 
 
@@ -143,19 +141,44 @@ print('Hello, world')
 
 ### 四則演算
 
-数値が定義された変数に`+, -, *, /`を作用させると四則演算が出来ます．
+数値型の変数に対して四則演算`+, -, *, /`が定義されています．
 
 ```python
 a = 3
 b = 5
 a + b
+# 8
 ```
 
 他にも
-* 切り捨て除算`//`
-* 余り`%`
-* 累乗`**`
+* 切り捨て除算 `//`
+* 余り `%`
+* 累乗 `**`
 が使えます．
+
+
+---?color=linear-gradient(to top, #6dd5ed, #2193b0)
+
+### 配列
+
+複数のデータをカンマで区切ってひとまとめにしたものを配列といいます．
+
+* `list`: [a, b, c]
+* `tuple`: (a, b, c)
+* `dict`: {"key1": value1, "key2": value2}
+
+---?color=linear-gradient(to top, #6dd5ed, #2193b0)
+
+```py
+a = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+a  # ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+```
+
+リストやタプルの要素を取り出すには
+```py
+b = (1, 10, 100, 1000, 10000)
+b[3]  # 1000
+```
 
 ---?color=linear-gradient(to top, #6dd5ed, #2193b0)
 
