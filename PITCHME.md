@@ -113,106 +113,31 @@ Jupyterの特徴：
 
 ---
 
-![jy_window_new](https://user-images.githubusercontent.com/32427720/66415236-1b613600-ea36-11e9-9dab-6f4faebb2cf1.png)
+![gamen](https://user-images.githubusercontent.com/32427720/65029837-64fbbb00-d979-11e9-8e63-1f28001c4dd4.gif)
 
 ---
 
 ## python入門
 
----?color=linear-gradient(to top, #6dd5ed, #2193b0)
-
-### Hello, World
-
-pythonでは`var = 12`のようにして変数を与えます．
-
-* 数値(int, float, complex)
-* 配列(list, tuple, dict)
-* 文字列(str)
-
-クォーテーションかダブルクォーテーションで囲まれた部分が文字列となります．
-
-Hello, Worldを出力してみましょう．
-
 ---
 
-```python
-char = 'Hello, World'
-print(char)
-# Hello, World
-```
+![jy_window_new](https://user-images.githubusercontent.com/32427720/66415236-1b613600-ea36-11e9-9dab-6f4faebb2cf1.png)
 
-
----?color=linear-gradient(to top, #6dd5ed, #2193b0)
-
-### 四則演算
-
-数値型の変数に対して四則演算`+, -, *, /`が定義されています．
-
-```python
-a = 3
-b = 5
-a + b
-# 8
-```
-
-他にも
-* 切り捨て除算 `//`
-* 余り `%`
-* 累乗 `**`
-が使えます．
-
-
----?color=linear-gradient(to top, #6dd5ed, #2193b0)
-
-### 配列
-
-複数のデータをカンマで区切ってひとまとめにしたものを配列といいます．
-
-* `list`: [a, b, c]
-* `tuple`: (a, b, c)
-* `dict`: {"key1": value1, "key2": value2}
-
----?color=linear-gradient(to top, #6dd5ed, #2193b0)
-
-```py
-a = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-a  # ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
-```
-
-リストやタプルの要素を取り出すには
-```py
-b = (1, 10, 100, 1000, 10000)
-b[3]  # 1000
-```
-
----?color=linear-gradient(to top, #6dd5ed, #2193b0)
-
-### 関数の定義
-
-一連の処理をまとめてオリジナルの関数を作ることも出来ます．
-
-```python
-def add(x, y):
-	return x + y
-```
 
 ---
 
 ## Markdown
 
-軽量なマークアップ言語(簡単html)
+軽量なマークアップ言語(htmlの簡単varsion)
 
 
-@box[](1. `Esc + m`またはタブの下にあるプルダウンメニューからMarkdownを選ぶ
+1. `Esc + m`またはタブの下にあるプルダウンメニューからMarkdownを選ぶ
 2. Markdownセルをクリック
 3. 文章を書く
 4. `shift+Enter`でレンダリングする
-)
 
 
 ---?color=linear-gradient(to top, #6dd5ed, #2193b0)
-
-@snap[west span-40]
 
 ```md
 ニュートンの運動方程式は
@@ -221,19 +146,14 @@ F = ma
 $$
 である．ここで$F$は力，$m$は質量，$a$は加速度を表す．
 ```
-@snapend
 
-@snap[midpoint span-10]
-@fa[arrow-right text-white]
-@snapend
+---
 
-@snap[east span-40]
 ニュートンの運動方程式は
-\[
+$$
 F = ma
-\]
+$$
 である．ここで$F$は力，$m$は質量，$a$は加速度を表す．
-@snapend
 
 
 ---
