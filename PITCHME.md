@@ -5,6 +5,7 @@
 ## 自己紹介
 
 名前：坂本弘樹
+
 所属：理学研究科素粒子論研究室(D3)
 
 
@@ -13,8 +14,9 @@
 
 ## 目次
 
-* jupyterについて
-* 
+* Jupyterについて
+* python入門
+* Jupyterでノートを取る
 
 
 ---?color=linear-gradient(to top, #6dd5ed, #2193b0)
@@ -24,81 +26,94 @@
 **Python**をブラウザ上でインタラクティブに動かすためのWebアプリ
 
 
-## Jupyter labの起動
+Jupyter labを起動するには
 
-+ Windowsの人 → すべてのプログラム -> anaconda3 -> プロンプトを実行
-+ Macの人 → ターミナル
++ Windowsの人 @fa[right-arrow] すべてのプログラム @fa[right-arrow] anaconda3 @fa[right-arrow] プロンプトを実行
++ Macの人 @fa[right-arrow] ターミナル
 
-```sh
-jupyter lab
-```
+を立ち上げたら`jupyter lab`と入力して実行してください．
+
+
+Jupyterをインストール出来てない人はオンラインで使える
+google colabolatoryを試してみましょう(要googleアカウント)
 
 ---
 
 ## Python
 
+@ul
 + 最近人気のプログラミング言語
++ オープンソース
 + 習得が容易
-+ 高収入？ [Ref.](https://jp.stanby.com/media/programming_ranking2017/)
-+ **ライブラリが豊富**
++ 書きやすい
++ 汎用性が高い
++ 高収入(?) [Ref.](https://jp.stanby.com/media/programming_ranking2017/)
++ ライブラリが豊富
+@ulend
 
 ---
 
-### numpy, scipy
+## どんなことが出来るのか
 
-数値計算を高速に行うことが出来るライブラリ(numpy)と科学計算に必要な特殊なモジュールを提供するライブラリ(scipy)
+@ul
+* Web開発
+* AI
+* 機械学習
+* データ解析
+* 数値計算
+* 記号計算
+* データの可視化
+* など
 
-
+google, youtube, dropbox, instagramなどはPythonで作られている
+@ulend
 
 ---
 
-### sympy
+## ライブラリの紹介(一部)
 
-記号計算用ライブラリ
+* `numpy`: 数値計算を高速に行うことが出来るライブラリ
+* `scipy`: 科学計算に必要な特殊なモジュールを提供するライブラリ
+* `sympy`: 記号計算用ライブラリ
+* `pandas`: データ解析をするためのライブラリ
+
+ほかにも
+
+- `Django, flask`: Web開発のためのフレームワーク
+- `TensorFlow, scikit-learn, Kelas`: 機械学習，深層学習，AI
+
+などライブラリを使うことによって，様々なアプリケーションを作れる！
+
+Note:
 
 例えば，
 
 @snap[text-06 span-100]
 Q. $a x^2 + b x + c = 0$の解を求めよ. 
-A. $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+A. $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
 
 のようなことが出来る．
 
-参考： 
-[2015年センター試験数学IAを全てプログラム(Python)で解く](https://qiita.com/akai_banana/items/b328fe0116d248127a36)
+参考：[2015年センター試験数学IAを全てプログラム(Python)で解く](https://qiita.com/akai_banana/items/b328fe0116d248127a36)
 @snapend
 
 
 ---
 
-### pandas
+## Jupyterの使い方の例
 
-データ解析に向いたライブラリ
+Jupyterの特徴： 
 
-`DataFrame`というオブジェクトを使って
-様々なデータ処理を容易に行うことができる
-
----
-
-ほかにも
-
-- Webアプリ(Django, flask)
-- 機械学習，深層学習，AI(TensorFlow, scikit-learn, Kelas)
-
-なんかも出来たりします．
-
----
-
-## Jupyterでできること
+* セルごとにPythonのコードが実行でき，その結果をノートブック上に保存できる．
+* Markdownを使って見出しや表などが簡単に表示できる
 
 @snap[fragment]
-ex.)  
-1. 計算結果をグラフにプロットしてその結果をメモする 
-2. 大量のデータの中から必要なところだけ抜き出してその特徴量の可視化を行う
+**Pythonを書いて得られたデータやグラフを，ノートのようにまとめることができる**
 @snapend
 
 ---
-![example](url)
+
+![gamen](https://user-images.githubusercontent.com/32427720/65029837-64fbbb00-d979-11e9-8e63-1f28001c4dd4.gif)
 
 ---
 
@@ -106,68 +121,23 @@ ex.)
 
 ---
 
-![画面の説明](url)
+![jy_window_new](https://user-images.githubusercontent.com/32427720/66415236-1b613600-ea36-11e9-9dab-6f4faebb2cf1.png)
 
-
----?color=linear-gradient(to top, #6dd5ed, #2193b0)
-
-### Hello, world
-
-pythonではクォーテーションかダブルクォーテーションで囲まれた部分が文字列となります．
-Hello, worldを出力してみましょう．
-
-```python
-print('Hello, world')
-```
-
-
----?color=linear-gradient(to top, #6dd5ed, #2193b0)
-
-### 四則演算
-
-数値が定義された変数に`+, -, *, /`を作用させると四則演算が出来ます．
-
-```python
-a = 3
-b = 5
-a + b
-```
-
-他にも
-* 切り捨て除算`//`
-* 余り`%`
-* 累乗`**`
-が使えます．
-
----?color=linear-gradient(to top, #6dd5ed, #2193b0)
-
-### 関数の定義
-
-一連の処理をまとめてオリジナルの関数を作ることも出来ます．
-
-```python
-def add(x, y):
-	return x + y
-```
 
 ---
 
 ## Markdown
 
-軽量なマークアップ言語(簡単html)
+軽量なマークアップ言語(htmlの簡単varsion)
 
 
-<div class=box>
 1. `Esc + m`またはタブの下にあるプルダウンメニューからMarkdownを選ぶ
 2. Markdownセルをクリック
 3. 文章を書く
 4. `shift+Enter`でレンダリングする
-</div>
 
 
 ---?color=linear-gradient(to top, #6dd5ed, #2193b0)
-
-@snap[west span-40]
 
 ```md
 ニュートンの運動方程式は
@@ -176,19 +146,14 @@ F = ma
 $$
 である．ここで$F$は力，$m$は質量，$a$は加速度を表す．
 ```
-@snapend
 
-@snap[midpoint span-10]
-@fa[arrow-right text-white]
-@snapend
+---
 
-@snap[east span-40]
 ニュートンの運動方程式は
-\[
+$$
 F = ma
-\]
+$$
 である．ここで$F$は力，$m$は質量，$a$は加速度を表す．
-@snapend
 
 
 ---
